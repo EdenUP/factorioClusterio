@@ -5,13 +5,13 @@
 */
 
 module.exports = {
-	// Name of package. For display somewhere I guess.
-	name: "UPSdisplay",
-	version: "2.0.0",
-	// Binary entrypoint for plugin. Don't let it crash. Stdout is sent to game as server chat (run /c commands from here for interface)
-	// Make sure its cross platform somehow.
-	binary: "nodePackage",
-	description: "Internal clusterio plugin to get the worlds UPS and display it on master",
-	// We'll send everything in this file to your stdin. Beware.
-	scriptOutputFileSubscription: "UPSdisplay.txt",
-}
+  // Name of package. For display somewhere I guess.
+  name                         : 'UPSdisplay',
+  version                      : '2.0.0',
+  // Binary entrypoint for plugin. Don't let it crash. Stdout is sent to game as server chat (run /c commands from here for interface)
+  // Make sure its cross platform somehow.
+  binary                       : 'nodePackage',
+  description                  : 'Internal clusterio plugin to get the worlds UPS and display it on master',
+  // We'll send everything in this file to your stdin. Beware.
+  scriptOutputFileSubscription : 'UPSdisplay.txt',
+};

@@ -1,9 +1,9 @@
-var assert = require("assert");
+const assert = require('assert');
 
-var remoteMap = require("./index.js");
+const remoteMap = require('./index.js');
 
-describe("remoteMap/index.js", () => {
-	it("exports a single class (or at least a function)", ()=>{
-		assert.equal(typeof remoteMap, "function");
-	});
+describe('remoteMap/index.js', () => {
+  it('exports a single class (or at least a function)', () => {
+    assert.equal(typeof remoteMap, 'function');
+  });
 });
